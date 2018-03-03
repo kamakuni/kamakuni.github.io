@@ -1,0 +1,13 @@
+.content_show {
+    animation-name:fade-in;
+    animation-duration:3s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
