@@ -39,3 +39,38 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
 });
+
+function ContentManager(containerId,scrollBaseEl,threshold) {
+    //this.containerEl = 
+    this.scrollBaseEl = scrollBaseEl
+    this.threshold = threshold
+    this.scrollTop = function(){
+       return this.scrollBaseEl.scrollTop
+    }
+    this.needsMoreContent = function(){
+        //var rect = containerEl.getBoundingClientRect()
+        //rect.bottom scrollTop
+        // rect.bottom - window.pageYOffset
+        //return contentBottom - window.innerHeight <= this.threshold 
+    }
+    this.renderLatestContent = function(content){
+        // TODO
+    }
+}
+
+function newConentManager(){
+    if (navigator.userAgent.toLowerCase().match(/webkit|msie 5/)) {
+        // Webkit系（Safari, Chrome, iOS）判定
+        if(navigator.userAgent.indexOf('Chrome') != -1){
+            // Chromeはhtml要素
+            el = document.documentElement
+        } else {
+            // Chrome以外はbody要素
+            el = document.body
+        }
+    } else {
+        // IE（6以上）、Firefox、Operaはhtml要素
+        el = document.documentElement
+    }    
+    return new ContentManager("contents-container",el,10)
+}
