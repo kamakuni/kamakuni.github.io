@@ -1,4 +1,3 @@
-/*console.log("I'm work");*/
 var appendImg = function(index) {
     var div = document.createElement("div")
     div.classList.add('content')
