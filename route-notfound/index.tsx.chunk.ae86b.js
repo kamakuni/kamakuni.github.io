@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"3LGf":function(n,t,o){"use strict";o.r(t);var e=o("hosL"),u=o("ox/y"),c=o("bGx1");t.default=function(){return Object(e.h)("div",{class:c.notfound},Object(e.h)("h1",null,"Error 404"),Object(e.h)("p",null,"That page doesn't exist."),Object(e.h)(u.Link,{href:"/"},Object(e.h)("h4",null,"Back to Home")))}},bGx1:function(n){n.exports={notfound:"_3HqSMCrfMSu7RQ_w0uZwwt"}}}]);
+//# sourceMappingURL=index.tsx.chunk.ae86b.js.map
