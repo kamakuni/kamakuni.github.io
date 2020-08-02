@@ -40,59 +40,47 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/face.jpg"
   },
   {
-    "revision": "63e9ba37e4b1eaa357f67e8f563f29f8",
+    "revision": "01901ae24fefafba6fa122b554c01e06",
     "url": "/assets/img/home.jpg"
   },
   {
-    "revision": "3e782ce7b52399ef766d",
-    "url": "/bundle.3e782.js"
+    "revision": "30eed2c8c439e4711b7f",
+    "url": "/bundle.25d16.esm.js"
   },
   {
-    "revision": "3e782ce7b52399ef766d",
+    "revision": "30eed2c8c439e4711b7f",
     "url": "/bundle.f2003.css"
   },
   {
-    "revision": "c721db29ad8404ed02872201c6d0aa93",
+    "revision": "7a8a7b3038e4228002efd78fc896b5b0",
     "url": "/index.html"
   },
   {
     "revision": "84c137f4ba19bae1d8d8",
-    "url": "/polyfills.84c13.js"
+    "url": "/polyfills.989dd.esm.js"
   },
   {
     "revision": "a1a87e3a155ab42fe111",
-    "url": "/route-about/index.tsx.chunk.a1a87.js"
+    "url": "/route-about/index.tsx.chunk.088f1.esm.js"
   },
   {
     "revision": "6af00b9ad87ca91f1986",
-    "url": "/route-code/index.tsx.chunk.6af00.js"
+    "url": "/route-code/index.tsx.chunk.08ad1.esm.js"
   },
   {
-    "revision": "df1d66a60cbca217f290",
+    "revision": "87eb32b7aec041516bec",
+    "url": "/route-home/index.tsx.chunk.717d4.esm.js"
+  },
+  {
+    "revision": "87eb32b7aec041516bec",
     "url": "/route-home/index.tsx.chunk.ca603.css"
   },
   {
-    "revision": "df1d66a60cbca217f290",
-    "url": "/route-home/index.tsx.chunk.df1d6.js"
+    "revision": "fca100329bd714ab2030",
+    "url": "/route-notfound/index.tsx.chunk.2ed47.css"
   },
   {
-    "revision": "ae86bbf1611dd49528e5",
-    "url": "/route-notfound/index.tsx.chunk.ae86b.js"
-  },
-  {
-    "revision": "ae86bbf1611dd49528e5",
-    "url": "/route-notfound/index.tsx.chunk.ee8fc.css"
-  },
-  {
-    "revision": "144c6ff1323d2d15182a7d2af08d027e",
-    "url": "/sw-debug.js"
-  },
-  {
-    "revision": "f1f10de07d063c408f5ea6e8074d2900",
-    "url": "/sw-esm.js"
-  },
-  {
-    "revision": "bfc5bd18885255982238f3628770f48d",
-    "url": "/sw.js"
+    "revision": "fca100329bd714ab2030",
+    "url": "/route-notfound/index.tsx.chunk.82610.esm.js"
   }
 ]);
